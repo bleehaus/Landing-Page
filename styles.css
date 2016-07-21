@@ -1,0 +1,320 @@
+
+/* ALL PAGES */
+body {
+	background-image: url(images/black.png);
+	background-position: fixed;
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+	height:100%;
+	margin:0;
+	position:fixed;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family:Montserrat;
+	font-size:4em;
+	display:inline;
+	text-shadow: #789fce 3px 3px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family:Montserrat;
+	font-size:2em;
+	display:inline;
+	text-decoration: none;
+	color:#789fce;
+	text-align:center;
+}
+
+a {
+	color:#789fce;
+	font-family: Montserrat, Arial;
+	text-decoration: none;
+}
+
+body p {
+	padding:20px;
+	margin:20px;
+	display:inline-block;
+	font-family:Open Sans;
+	background-color:#f2f2f2;
+	overflow:auto;
+	text-align: left;
+}
+
+a:hover {
+	color:black;
+}
+
+body #footer {
+	bottom:50px;
+	position:fixed;
+	margin:0 auto;
+	width:100%;
+}
+
+#footer a {
+	padding:10px;
+	text-align:center;
+	background-color:#789fce;
+	margin:15px;
+	text-transform: uppercase;
+	font-family: Montserrat, Arial;
+	text-decoration: none;
+	color:white;
+	display:inline-block;
+	font-size:20px;
+}
+
+#footer a:hover {
+	background-color: white;
+	color:#789fce;
+}
+
+#footer .currentpg a {
+	background-color:white;
+	color:#789fce;
+	display:inline-block;
+}
+
+#container {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+/* INDEX */
+
+.index {
+	width:100%;
+	height:100%;
+	position:fixed;
+}
+
+.index img {
+	max-width:60%;
+	margin:0 auto;
+	display:inline-block;
+	padding:70px;
+}
+
+/* SIDEBAR FOR ALL PAGES EXCEPT INDEX */
+
+.sidebar {
+	width:40%;
+	height:100%;
+	position:fixed;
+	float:left;
+	color:white;
+}
+
+.sidebar #footer {
+	width:40%;
+}
+
+.sidebar img {
+	max-width:60%;
+	margin:0 auto;
+	display:inline-block;
+	padding:30px;
+	margin-top:20%;
+	margin-top:50px;
+}
+
+/* RESUME */
+
+.resume {
+	width:60%;
+	height:100%;
+	margin:0 auto;
+	padding:0px;
+	margin-left:40%;
+	float:right;
+	display:block;
+	position:fixed;
+	background-color:lightgray;
+	overflow:scroll;
+}
+
+.resume p {
+	padding:20px;
+	margin:20px;
+	display:inline-block;
+	font-family: Cambria;
+	width:85%;
+	background-color:#f2f2f2;
+	overflow:auto;
+	text-align: left;
+}
+
+.resume p a {
+	font-family:Cambria;
+}
+
+p.center {
+	text-align:center;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+	width:60%;
+	height:100%;
+	margin:0 auto;
+	padding:0px;
+	margin-left:40%;
+	float:right;
+	display:block;
+	position:fixed;
+	background-color:lightgray;
+	overflow:scroll;
+}
+
+.portfolio p {
+	font-family:Open Sans;
+}
+.portfolio #img {
+	padding:20px;
+	margin:20px;
+	width:85%;
+	height:90%;
+	display:inline-block;
+	background-color: none;
+	text-align: left;
+}
+
+.portfolio #img img {
+	height:30%;
+	padding:10px;
+}
+
+/* PROJECTS */
+
+.projects {
+	width:60%;
+	height:100%;
+	margin:0 auto;
+	padding:0px;
+	margin-left:40%;
+	float:right;
+	display:block;
+	position:fixed;
+	background-color:lightgray;
+	overflow:scroll;
+}
+
+.projects #footer {
+	width:40%;
+}
+
+.projects p {
+	padding:20px;
+	margin:20px;
+	display:inline-block;
+	font-family: Open Sans;
+	width:85%;
+	background-color:#f2f2f2;
+	overflow:auto;
+	text-align: left;
+	text-align: center;
+}
+.projects b a {
+	font-size:30px;
+}
+
+.projects p b {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* CONTACT */
+
+.contact {
+	width:60%;
+	height:100%;
+	margin:0 auto;
+	padding:0px;
+	margin-left:40%;
+	float:right;
+	display:block;
+	position:fixed;
+	background-color:lightgray;
+	overflow:scroll;
+}
+
+.contact #footer {
+	width:40%;
+}
+
+.contact p{
+	padding:20px;
+	margin:20px;
+	display:inline-block;
+	font-family:Open Sans;
+	background-color:#f2f2f2;
+	overflow:auto;
+	text-align: left;
+}
+
+.contact form {
+	font-family:Open Sans;
+	text-align:left;
+	margin:5%;
+	padding:10%;
+	background-color:#f2f2f2;
+}
+
+.contact button a {
+	color:white;
+}
+
+.contact button:hover a {
+	color:#789fce;
+}
+
+.contact button:hover {
+	background-color:white;
+}
+
+button {
+	padding:10px 50px 10px 50px;
+	background-color:#789fce;
+	color:white;
+	font-family:Open Sans;
+	font-size:16px;
+	box-shadow:none;
+	border:none;
+	text-align:center;
+}
+
+button:hover {
+	background-color:white;
+	color:#789fce;
+}
+
+.contact #social {
+	padding:20px;
+	margin:20px;
+	display:inline-block;
+	font-family:Open Sans;
+	background-color:#f2f2f2;
+	overflow:auto;
+	text-align: left;
+	border-radius:;
+
+}
+
+.contact #social:hover {
+	background-color:#789fce;
+}
+
+.contact img {
+	width:100px;
+	border-radius:100%;
+}
